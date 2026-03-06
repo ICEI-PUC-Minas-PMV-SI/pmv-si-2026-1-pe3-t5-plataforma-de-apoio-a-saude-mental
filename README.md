@@ -1,4 +1,4 @@
-# Título do Projeto
+# BeFit - Platorma de Gestão de DietasBeFit - Platorma de Gestão de Dietas
 
 `CURSO: Sistemas de Informação`
 
