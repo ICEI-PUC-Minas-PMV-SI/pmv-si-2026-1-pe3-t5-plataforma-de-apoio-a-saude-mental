@@ -23,9 +23,9 @@ Objetivo geral: Desenvolver uma aplicação Web, para facilitar a gestão alimen
 Objetivo específico:
 
 * Gerenciar estoques particular de alimentos utilizados na dieta.
-* Calcular a quantidade diária de carboidratos, proteínas e gorduras da dieta.
+* Gerenciar a quantidade diária de carboidratos, proteínas e gorduras da dieta, conforme indicação profissional.
 * Conhecer alimentos restritivos associados a dieta do usuário.
-* Gerenciar lista de compras para abastecimento do estoque.
+* Gerar lista de compras para abastecimento do estoque.
 * Monitorar peso por meio do cálculo de IMC (índice de Massa Corporal).
 * Organizar agenda semanal de refeições descritos na dieta (café, almoço, jantar).
 * Conhecer receitas compatíveis com a dieta utilizada visando trocas ou adaptação alimentares.
