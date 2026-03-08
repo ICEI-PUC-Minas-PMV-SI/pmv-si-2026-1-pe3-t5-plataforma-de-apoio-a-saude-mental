@@ -13,21 +13,21 @@ Diante desse cenário, o uso de recursos tecnológicos, aliado ao acompanhamento
 
 ## 1.1. Problema
 
-Muitas pessoas enfrentam dificuldades na gestão diária de suas dietas devido à falta de tempo, organização e conhecimento sobre nutrição. Além disso, a complexidade dos planos alimentares, o uso de termos técnicos por profissionais, a falta de conhecimento sobre quais alimentos podem ser substituidos e a indisponibilidade de ingredientes na dispensa dificultam a adesão e a obtenção de resultados eficazes. Fazendo com que muitos abandonem o protocolo alimentar. Pensando nisso viu-se a necessidade de desenvolver uma solução que torne o planejamento alimentar mais acessível, prático e eficiente.
+Muitas pessoas enfrentam dificuldades na gestão diária de suas dietas devido à falta de tempo, organização e conhecimento sobre nutrição. Além disso, a complexidade dos planos alimentares, o uso de termos técnicos por profissionais, a falta de conhecimento sobre quais alimentos podem ser substituídos e a indisponibilidade de ingredientes na despensa dificultam a adesão e a obtenção de resultados eficazes. Fazendo com que muitos abandonem o protocolo alimentar. Pensando nisso viu-se a necessidade de desenvolver uma solução que torne o planejamento alimentar mais acessível, prático e eficiente.
 
 
 ## 1.2. Objetivos do trabalho
 
-Objetivo geral: Desenvolver uma aplicação Web, para facilitar a gestão alimentar em dietas, proporcionando maior eficiência e autonomia para otimizar resultados sem a necessidade de acompanhamento contínuo de um profissional.
+Objetivo geral: Desenvolver uma aplicação Web para facilitar a gestão alimentar em dietas, proporcionando maior eficiência e autonomia para otimizar resultados sem a necessidade de acompanhamento contínuo de um profissional.
 
 Objetivo específico:
 
-* Gerenciar estoques particular de alimentos utilizados na dieta.
+* Gerenciar estoques particulares de alimentos utilizados na dieta.
 * Gerenciar a quantidade diária de carboidratos, proteínas e gorduras da dieta, conforme indicação profissional.
-* Conhecer alimentos restritivos associados a dieta do usuário.
+* Conhecer alimentos restritivos associados à dieta do usuário.
 * Gerar lista de compras para abastecimento do estoque.
 * Monitorar peso por meio do cálculo de IMC (índice de Massa Corporal).
-* Organizar agenda semanal de refeições descritos na dieta (café, almoço, jantar).
+* Organizar agenda semanal de refeições descritas na dieta (café, almoço, jantar).
 * Conhecer receitas compatíveis com a dieta utilizada visando trocas ou adaptação alimentares.
 
 
@@ -35,14 +35,14 @@ Objetivo específico:
 
 A adoção de uma alimentação equilibrada é essencial para a promoção da saúde e do bem-estar, porém, fazer uma dieta pode ser um desafio. Muitas pessoas que iniciam uma dieta enfrentam dificuldades na gestão eficiente de sua alimentação, seja pela falta de conhecimento, pela dificuldade de planejamento ou pela ausência de ferramentas adequadas para monitorar o seu progresso.
 
-Assim, para controlar e acompanhar de forma eficiente os diferentes aspectos relacionados à alimentação e à gestão de uma dieta, uma aplicaçao que faça o gerenciamento de lista de compras facilita o planejamento do abastecimento do estoque, tornando o processo mais organizado e prático. O monitoramento do peso por meio do cálculo do IMC possibilita acompanhar a evolução física do usuário ao longo do tempo, fornecendo um indicador importante de saúde. A organização de uma agenda semanal de refeições contribui para manter a regularidade alimentar e evitar decisões improvisadas. Por fim, conhecer receitas compatíveis com a dieta amplia as opções de preparo de alimentos, permitindo variações no cardápio e facilitando adaptações sem comprometer os objetivos nutricionais estabelecidos.
+Assim, para controlar e acompanhar de forma eficiente os diferentes aspectos relacionados à alimentação e à gestão de uma dieta, uma aplicação que faça o gerenciamento de lista de compras facilita o planejamento do abastecimento do estoque, tornando o processo mais organizado e prático. O monitoramento do peso por meio do cálculo do IMC possibilita acompanhar a evolução física do usuário ao longo do tempo, fornecendo um indicador importante de saúde. A organização de uma agenda semanal de refeições contribui para manter a regularidade alimentar e evitar decisões improvisadas. Por fim, conhecer receitas compatíveis com a dieta amplia as opções de preparo de alimentos, permitindo variações no cardápio e facilitando adaptações sem comprometer os objetivos nutricionais estabelecidos.
 
 
 ## 1.4. Público alvo
 
 A aplicação web projetada se destinará a atender primariamente os seguintes usuários:
 
-* Pessoas acima de 18 anos que, por acreditarem muito no estilo de vida saudável, desejam melhorar a alimentação ou fazer uma dieta. Moram em regiões metropolitanas, e não conseguem fazer a gestão da alimentação e controle da dieta, devido à falta de tempo ou desconhecimento.
+* Pessoas acima de 18 anos que valorizam um estilo de vida saudável, desejam melhorar a alimentação ou fazer uma dieta. Moram em regiões metropolitanas, e não conseguem fazer a gestão da alimentação e controle da dieta, devido à falta de tempo ou desconhecimento.
 * Atletas e praticantes de atividade física, que precisam ajustar a alimentação para melhorar o desempenho esportivo. Buscam dietas específicas, como alimentação para ganho de massa muscular, e tem interesse em monitoramento de macros e calorias.
-* Pessoas com restrições alimentares, ou com intolerâncias (glúten, lactose) ou alergias alimentares, que buscam personalização de dietas para necessidades específicas, e se Interesse por receitas adaptadas.
+* Pessoas com restrições alimentares, ou com intolerâncias (glúten, lactose) ou alergias alimentares, que buscam personalização de dietas para necessidades específicas, e se interesse por receitas adaptadas.
 
