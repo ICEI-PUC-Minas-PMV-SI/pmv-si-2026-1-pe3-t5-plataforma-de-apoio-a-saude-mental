@@ -52,13 +52,6 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 | RNF-005 | O sistema deve suportar no mínimo 100 usuários simultâneos sem perda significativa de desempenho. | MÉDIA      |
 | RNF-006 | O sistema deve responder às ações do usuário em até 2 segundos.                                   | ALTA       |
 
-ID	Restrição
-
-| ID    | Restrição                                                                |
-| ----- | ------------------------------------------------------------------------ |
-| R-001 | O sistema deve ser entregue até o final do semestre.                     |
-| R-002 | O sistema não deve possuir implementação de backend.                     |
-
 
 ### 3.3.3 Usuários 
 
