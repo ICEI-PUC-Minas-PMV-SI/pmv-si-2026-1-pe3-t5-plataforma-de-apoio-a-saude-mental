@@ -74,24 +74,25 @@ Como observado no diagrama de casos de uso da Figura 1, a secretária poderá ge
 
 Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
 
-#### Gerenciar Professor (CSU01)
+#### Fazer Cadastro (CSU01)
 
-Sumário: A Secretária realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre professores.
+Sumário: Permite que o usuário crie uma conta no sistema e gerencie suas informações pessoais e preferências alimentares..
 
-Ator Primário: Secretária.
+Ator Primário: Usuário.
 
-Ator Secundário: Coordenador.
-
-Pré-condições: A Secretária deve ser validada pelo Sistema.
+Pré-condições: O usuário deve acessar a aplicação.
 
 Fluxo Principal:
 
-1) 	A Secretária requisita manutenção de professores.
-2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de um novo professor, alteração de um professor, a exclusão de um professor e a consulta de dados de um professor.
-3) 	A Secretária seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
-4) 	Se a Secretária desejar continuar com a gestão de professores, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+1)  O usuário acessa a opção de cadastro ou edição de perfil.
+2) 	O sistema apresenta o formulário de dados pessoais.
+3) 	O usuário informa os dados solicitados (nome, idade, peso, altura, objetivo da dieta).
+4) 	O sistema valida os dados.
+5) 	O sistema salva as informações no banco de dados.
+6) 	O sistema confirma o cadastro ou atualização do perfil.
+    	
 
-Fluxo Alternativo (3): Inclusão
+Fluxo Alternativo (3): Atualização de dados
 
 a)	A Secretária requisita a inclusão de um professor. <br>
 b)	O Sistema apresenta uma janela solicitando o CPF do professor a ser cadastrado. <br>
@@ -100,24 +101,13 @@ d)	O Sistema verifica se o professor já está cadastrado. Se sim, o Sistema rep
 e)	A Secretária fornece os detalhes do novo professor. <br>
 f)	O Sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo professor e a grade listando os professores cadastrados é atualizada; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. <br>
 
-Fluxo Alternativo (3): Remoção
+Fluxo Alternativo (3): Dados inválidos
 
-a)	A Secretária seleciona um professor e requisita ao Sistema que o remova. <br>
-b)	Se o professor pode ser removido, o Sistema realiza a remoção; caso contrário, o Sistema reporta o fato. <br>
+a)	O sistema detecta informações incompletas ou inválidas. <br>
+b)	O sistema solicita correção dos dados. <br>
+c)	O usuário corrige as informações. <br>
 
-Fluxo Alternativo (3): Alteração
 
-a)	A Secretária altera um ou mais dos detalhes do professor e requisita sua atualização. <br>
-b)	O Sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de professores, caso contrário, o erro é reportado. <br>
- 
-Fluxo Alternativo (3): Consulta
-
-a)	A Secretária opta por pesquisar pelo nome ou código e solicita a consulta sobre a lista de professores. <br>
-b)	O Sistema apresenta uma lista professores. <br>
-c)	A Secretária seleciona o professor. <br>
-d)	O Sistema apresenta os detalhes do professor no formulário de professores. <br>
-
-Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
 
 ### 3.4.3 Diagrama de Classes 
 
