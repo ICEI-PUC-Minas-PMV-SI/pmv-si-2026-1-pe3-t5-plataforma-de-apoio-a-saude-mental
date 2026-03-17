@@ -76,7 +76,7 @@ Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
 
 #### Fazer Cadastro (CSU01)
 
-Sumário: Permite que o usuário crie uma conta no sistema e gerencie suas informações pessoais e preferências alimentares..
+Sumário: Permite que o usuário crie uma conta no sistema e gerencie suas informações pessoais e preferências alimentares.
 
 Ator Primário: Usuário.
 
@@ -91,21 +91,52 @@ Fluxo Principal:
 5) 	O sistema salva as informações no banco de dados.
 6) 	O sistema confirma o cadastro ou atualização do perfil.
     	
+Fluxo Alternativo (1): Dados inválidos
 
-Fluxo Alternativo (3): Atualização de dados
+a)	O usuário acessa o perfil já cadastrado. <br>
+b)	O sistema apresenta as informações atuais. <br>
+c)	O usuário altera os dados desejados. <br>
+d)	O sistema salva as alterações. <br>
 
-a)	A Secretária requisita a inclusão de um professor. <br>
-b)	O Sistema apresenta uma janela solicitando o CPF do professor a ser cadastrado. <br>
-c)	A Secretária fornece o dado solicitado. <br>
-d)	O Sistema verifica se o professor já está cadastrado. Se sim, o Sistema reporta o fato e volta ao início; caso contrário, apresenta um formulário em branco para que os detalhes do professor (Código, Nome, Endereço, CEP, Estado, Cidade, Bairro, Telefone, Identidade, Sexo, Fax, CPF, Data do Cadastro e Observação) sejam incluídos. <br>
-e)	A Secretária fornece os detalhes do novo professor. <br>
-f)	O Sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo professor e a grade listando os professores cadastrados é atualizada; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. <br>
-
-Fluxo Alternativo (3): Dados inválidos
+Fluxo Alternativo (2): Dados inválidos
 
 a)	O sistema detecta informações incompletas ou inválidas. <br>
 b)	O sistema solicita correção dos dados. <br>
 c)	O usuário corrige as informações. <br>
+
+Pós-condições: Os dados do usuário ficam registrados ou atualizados no sistema.
+
+
+#### Gerenciar Estoque de Alimentos (CSU02)
+
+Sumário: Permite cadastrar, editar ou remover alimentos do estoque doméstico.
+
+Ator Primário: Usuário.
+
+Pré-condições: Usuário deve estarr autenticado no sistema.
+
+Fluxo Principal:
+
+1)  O usuário acessa o módulo de estoque.
+2) 	O sistema apresenta os alimentos cadastrados.
+3) 	O usuário seleciona a opção adicionar alimento.
+4) 	O sistema valida os dados.
+5) 	O usuário informa nome do alimento, quantidade e unidade.
+6) 	O sistema registra o alimento no estoque.
+    	
+Fluxo Alternativo (1): Atualizar quantidade
+
+a)	O usuário seleciona um alimento existente. <br>
+b)	O usuário altera a quantidade disponível. <br>
+c)	O sistema atualiza o estoque. <br>
+
+Fluxo Alternativo (2): Dados inválidos
+
+a)	O usuário seleciona um alimento cadastrado. <br>
+b)	O usuário escolhe a opção excluir. <br>
+c)	O sistema remove o alimento do estoque. <br>
+
+Pós-condições: O estoque de alimentos fica atualizado.
 
 
 
