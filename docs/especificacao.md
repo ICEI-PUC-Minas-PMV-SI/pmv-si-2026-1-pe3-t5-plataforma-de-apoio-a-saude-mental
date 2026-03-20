@@ -29,8 +29,6 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 ### 3.3.1 Requisitos Funcionais
 
-### 3.3.1 Requisitos Funcionais
-
 | ID     | Descrição do Requisito                                                                 | Prioridade |
 |--------|----------------------------------------------------------------------------------------|------------|
 | RF-001 | O sistema deve permitir que o usuário cadastre suas preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.). | MÉDIA |
