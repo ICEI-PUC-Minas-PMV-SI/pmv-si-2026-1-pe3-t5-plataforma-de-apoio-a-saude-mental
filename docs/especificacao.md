@@ -29,18 +29,20 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 
 ### 3.3.1 Requisitos Funcionais
 
-| ID     | Descrição do Requisito                                                                                                             | Prioridade |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| RF-001 | O sistema deve permitir que o usuário cadastre suas preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.).        | MÉDIA      |
-| RF-002 | O sistema deve permitir que o usuário visualize opções de refeições organizadas por complexidade, considerando o tempo de preparo. | ALTA       |
-| RF-003 | O sistema deve sugerir automaticamente uma lista de compras com base no plano de refeições escolhido pelo usuário.                 | MÉDIA      |
-| RF-004 | O sistema deve fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.).                   | ALTA       |
-| RF-005 | O sistema deve disponibilizar uma ferramenta para monitoramento do peso por meio do cálculo do IMC (Índice de Massa Corporal).     | MÉDIA      |
-| RF-006 | O sistema deve oferecer uma ferramenta para calcular a quantidade de carboidratos, proteínas e gorduras da dieta do usuário.       | MÉDIA      |
-| RF-007 | O sistema deve permitir que o usuário organize uma agenda semanal de refeições (café da manhã, almoço e jantar).                   | ALTA       |
-| RF-008 | O sistema deve fornecer um sistema de inventário de alimentos integrado às refeições diárias do usuário.                           | MÉDIA      |
-| RF-009 | O sistema deve disponibilizar relatórios dos alimentos consumidos nos períodos diário, semanal e mensal.                           | BAIXA      |
+### 3.3.1 Requisitos Funcionais
 
+| ID     | Descrição do Requisito                                                                 | Prioridade |
+|--------|----------------------------------------------------------------------------------------|------------|
+| RF-001 | O sistema deve permitir que o usuário cadastre suas preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.). | MÉDIA |
+| RF-002 | O sistema deve permitir que o usuário visualize opções de refeições organizadas por complexidade, considerando o tempo de preparo. | ALTA |
+| RF-003 | O sistema deve sugerir automaticamente uma lista de compras com base no plano de refeições escolhido pelo usuário. | MÉDIA |
+| RF-004 | O sistema deve fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.). | ALTA |
+| RF-005 | O sistema deve disponibilizar uma ferramenta para monitoramento do peso por meio do cálculo do IMC (Índice de Massa Corporal). | MÉDIA |
+| RF-006 | O sistema deve permitir que o usuário organize uma agenda semanal de refeições (café da manhã, almoço e jantar). | ALTA |
+| RF-007 | O sistema deve fornecer um sistema de inventário de alimentos integrado às refeições diárias do usuário. | MÉDIA |
+| RF-008 | O sistema deve disponibilizar relatórios dos alimentos consumidos nos períodos diário, semanal e mensal. | BAIXA |
+| RF-009 | O sistema deve permitir que o usuário realize cadastro na plataforma informando seus dados pessoais. | ALTA |
+| RF-010 | O sistema deve permitir que o usuário realize login na plataforma utilizando suas credenciais. | ALTA |
 ### 3.3.2 Requisitos Não Funcionais
 
 | ID      | Descrição do Requisito                                                                            | Prioridade |
